@@ -31,9 +31,8 @@
 #include <signal.h>
 #include <stdio.h>
 
-#ifndef __ARCH_X86
-	#define __ARCH_X86
-#endif
+/* Default, Set ARCH to X86*/
+#define __ARCH_X86
 
 #ifdef __ARCH_X86
 	#ifndef __USE_GNU
