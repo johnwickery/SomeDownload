@@ -1,0 +1,6 @@
+gcc $(pkg-config --cflags --libs dbus-1) -o dbus_receiver dbus_receiver.c
+gcc $(pkg-config --cflags --libs dbus-1) -o dbus_receiver dbus_receiver_2.c
+gcc $(pkg-config --cflags --libs dbus-1) -o dbus_sender dbus_sender.c
+
+gcc $(pkg-config --cflags --libs dbus-1) -o dbus_server dbus_server.c
+gcc $(pkg-config --cflags --libs dbus-1) -o dbus_client dbus_client.c
